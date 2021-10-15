@@ -12,6 +12,6 @@
 On the other side the character is built as follows: b = b | 128 >> i. "b" is a static char, that means its equal to 00000000. Anytime SIGUSR1 is received "b" 0 on "i"th position is updated by 1. When 8 signals are sent b character is printed, b and i are set back to 0.
 
 <br>#To run the program:
-.git clone the repository to your computer, go to the terminal and type "make".<br/>
-.after that execute server (./server)<br/>
-.open new window and run ./client [SERVER PID] and your message
+<br>.git clone the repository to your computer, go to the terminal and type "make".
+<br>.after that execute server (./server)
+<br>.open new window and run ./client [SERVER PID] and your message
