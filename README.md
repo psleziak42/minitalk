@@ -15,3 +15,7 @@ On the other side the character is built as follows: b = b | 128 >> i. "b" is a 
 <br>.git clone the repository to your computer, go to the terminal and type "make".
 <br>.after that execute server (./server)
 <br>.open new window and run ./client [SERVER PID] and your message
+
+## _XPM_IMAGE_TRANSFER_ BRANCH
+
+<br>Is an updated version of the same program. It sends _charmander.xpm_ via signals and create exact copy named _charmander_copy.xpm_
